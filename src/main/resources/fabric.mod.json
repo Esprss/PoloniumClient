@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "polonium",
+  "version": "${version}",
+  "name": "Polonium Client",
+  "description": "A base cheat client for Minecraft 1.21.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/polonium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "polonium.client.PoloniumClient"
+    ]
+  },
+  "mixins": [
+    "polonium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
