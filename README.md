@@ -1,5 +1,5 @@
 # Polonium Client
-## 🇬🇧 English README
+## 🇬🇧 English
 ### About
 The **Polonium Client** is a simple, lightweight utility client built on **Fabric** for Minecraft 1.21.
 This project was developed primarily as a **development framework** to experiment with essential client features, focusing on implementing core module structures, settings, and successfully fixing complex compilation issues across Mixin injections and the Fabric API on a Linux development environment.
